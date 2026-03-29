@@ -68,5 +68,6 @@ form.addEventListener("submit",(e)=>{
     e.preventDefault()
     checkEmpty([name,email,pass,confirmPass]);
     checkEmail(email);
-    checkPass(pass,6,20)
+    checkPass(pass,6,20);
+    alert("submitted success")
 })
