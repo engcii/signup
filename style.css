@@ -10,13 +10,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 80vh;
     /* background-image: ; */
 }
 
 .container{
     background-color: antiquewhite;
-    margin: 30px;
     width: 400px;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.2);
