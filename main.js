@@ -69,5 +69,6 @@ form.addEventListener("submit",(e)=>{
     checkEmpty([name,email,pass,confirmPass]);
     checkEmail(email);
     checkPass(pass,6,20);
-    alert("submitted success")
+    let par = document.querySelector("#par")
+    par.innerHTML = "submitted success"
 })
